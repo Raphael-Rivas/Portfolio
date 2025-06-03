@@ -35,7 +35,7 @@
   ======================================================== -->
 </head>
 
-<body class="resume-page">
+<body class="portfolio-details-page">
 
   <header id="header" class="header d-flex align-items-center fixed-top">
     <div class="container-fluid container-xl position-relative d-flex align-items-center justify-content-between">
@@ -49,8 +49,8 @@
       <nav id="navmenu" class="navmenu">
         <ul>
           <li><a href="index.html">Accueil</a></li>
-          <li><a href="resume.html" class="active">Parcours</a></li>
-          <li><a href="portfolio.html">Projets</a></li>
+          <li><a href="resume.html">Parcours</a></li>
+          <li><a href="portfolio.html" class="active">Projets</a></li>
           <li><a href="portfolio-apprentissage.html">Portfolio d'Apprentissage</a></li>
         </ul>
         <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
@@ -67,8 +67,8 @@
         <div class="container">
           <div class="row d-flex justify-content-center text-center">
             <div class="col-lg-8">
-              <h1>Parcours</h1>
-              <p></p>
+              <h1>Détails du projet</h1>
+              <p class="mb-0"></p>
             </div>
           </div>
         </div>
@@ -77,70 +77,73 @@
         <div class="container">
           <ol>
             <li><a href="index.html">Accueil</a></li>
-            <li class="current">Parcours</li>
+            <li><a href="portfolio.html">Projets</a></li>
+            <li class="current">Détails du projet</li>
           </ol>
         </div>
       </nav>
     </div><!-- End Page Title -->
 
-    <!-- Resume Section -->
-    <section id="resume" class="resume section">
+    <!-- Portfolio Details Section -->
+    <section id="portfolio-details" class="portfolio-details section">
 
-      <div class="container">
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
 
-        <div class="row">
+        <div class="row gy-4">
 
-          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
-
-            <h3 class="resume-title">Formations</h3>
-            <div class="resume-item">
-              <h4>BUT Informatique</h4>
-              <h5>2023 - 2026</h5>
-              <p><em>Deuxième année en cours</em></p>
-              <p>IUT Montpellier-Sète - Université de Montpellier</p>
-            </div><!-- Edn Resume Item -->
-
-            <div class="resume-item">
-              <h4>Baccalauréat Général</h4>
-              <h5>2023</h5>
-              <p><em>Mention Bien | Européenne Anglais</em></p>
-              <p>Spécialisations : Mathématiques, Numérique Sciences Informatiques</p>
-            </div><!-- Edn Resume Item -->
-
+          <div class="col-lg-8">
+            <div class="portfolio-details-slider swiper init-swiper">
+              <div class="swiper-wrapper align-items-center">
+                <div class="swiper-slide">
+                  <img src="assets/img/portfolio/stage.png" alt="">
+                </div>
+              </div>
+            </div>
           </div>
 
-          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
-            <h3 class="resume-title">Experience Professionnelle</h3>
-            <div class="resume-item">
-              <h4>Stage chez Synox</h4>
-              <h5>13 janvier 2025 - 4 avril 2025</h5>
-              <p><em>Réalisation d'une maquette en nodejs permettant la communication des dispositifs connectés du bâtiment de Synox (divers protocoles) pour un pilotage depuis leurs solutions SaaS</em></p>
+          <div class="col-lg-4">
+            <div class="portfolio-info" data-aos="fade-up" data-aos-delay="200">
+              <h3>Stage chez Synox</h3>
               <ul>
-                <li>Analyse du besoin</li>
-                <li>Compréhension du fonctionnement des divers protocoles des objets</li>
-                <li>Réalisation d'un POC permettant la récupération (puis pilotage) des informations des luminaires et stores en modbus</li>
-                <li>Intégration du pilotage des blocs de climatisation en bacnet à ce POC</li>
-                <li>Intégration d'une base de données pour gérer la configuration de ce nouvel outil</li>
+                <li><strong>Objectif </strong>: Projet visant à développer une application permettant la communication de
+                  dispositifs connectés dans le nouveau bâtiment de Synox.
+                  Ces objets connectés utilisent différents protocoles pour communiquer via le réseau.
+                  Le but de cette application est de permettre aux employés de Synox de pouvoir contrôler et gérer les objets connectés de leur bâtiment.</li>
+                <li><strong>Gestion de projet et méthodologie </strong>: La réalisation du projet de stage s’est découpée en plusieurs parties. La première partie a
+                  consisté à comprendre l’environnement technique et à effectuer des recherches.
+                  Puis a suivi une phase d’expérimentation et de tests techniques de cet
+                  environnement après compréhension. Après quoi, il a fallu conceptualiser le projet,
+                  afin de réaliser le développement de la solution complète.</li>
+                <li><strong>Source du projet </strong>: <em>Ce projet étant interne à l'entreprise, je ne peux pas partager de traces.</em></li>
               </ul>
-            </div><!-- Edn Resume Item -->
-
-          </div>
-
-          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
-
-            <h3 class="resume-title">Futur ...</h3>
-            <div class="resume-item">
-              <h4>École d'ingénieur</h4>
-              <h5>Dans le futur, je souhaite approfondir mes connaissances en continuant mes études en école d'ingénieur tout en étant en alternance.</h5>
-            </div><!-- Edn Resume Item -->
-
+            </div>
+            <div class="portfolio-description" data-aos="fade-up" data-aos-delay="300">
+              <h2>Technologies et apprentissages</h2>
+              <p>
+                L’application développée est utilisée en Edge et accessible depuis toute autre
+                application, dans mon cas un site web. L’application en Edge communique grâce au
+                protocole MQTT pour généraliser les données envoyées et reçues. En d’autres
+                termes, l’application agit comme un serveur hébergé sur une machine dans le
+                réseau local, ouvert à la communication avec son réseau grâce à un broker MQTT.
+              </p>
+              <p>
+                Techniquement, l’application en Edge a été développée en JavaScript. Elle utilise Node.js pour
+                l’exécution et npm pour la gestion de paquets. Un site Web a aussi été développé
+                pour pouvoir gérer les données de l’application qui transitent via un broker MQTT.
+                Ce site Web sera remplacé à l’avenir par les solutions de Synox. Le site a été
+                développé en HTML, CSS et JavaScript.
+              </p>
+              <p>
+                J'ai donc principalement développé des compétences en JavaScript, et dans des notions touchant à l'IoT (l'internet des objets) comme les protocoles réseaux BACnet et Modbus.
+              </p>
+            </div>
           </div>
 
         </div>
 
       </div>
 
-    </section><!-- /Resume Section -->
+    </section><!-- /Portfolio Details Section -->
 
   </main>
 

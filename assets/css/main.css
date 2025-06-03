@@ -1474,3 +1474,46 @@ section,
 .contact .php-email-form button[type=submit]:hover {
   background: color-mix(in srgb, var(--accent-color), transparent 20%);
 }
+
+#portfolio-apprentissage {
+  padding: 60px 0;
+  background: var(--background-color);
+}
+
+#portfolio-apprentissage .portfolio-apprentissage-title {
+  font-size: 26px;
+  font-weight: 600;
+  margin-bottom: 20px;
+  color: var(--heading-color);
+  background: var(--surface-color);
+  border-radius: 15px;
+}
+
+#portfolio-apprentissage .portfolio-apprentissage-item {
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+#portfolio-apprentissage .portfolio-apprentissage-item h4 {
+  font-size: 21px;
+  font-weight: 500;
+  margin-bottom: 10px;
+  color: #444;
+}
+
+#portfolio-apprentissage .portfolio-apprentissage-item h5 {
+  font-size: 20px;
+  font-weight: 400;
+  margin-bottom: 10px;
+  color: #666;
+}
+
+#portfolio-apprentissage .portfolio-apprentissage-item p {
+  font-size: 17px;
+  color: #777;
+  line-height: 1.6;
+}
