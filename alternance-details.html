@@ -35,7 +35,7 @@
   ======================================================== -->
 </head>
 
-<body class="portfolio-page">
+<body class="portfolio-details-page">
 
   <header id="header" class="header d-flex align-items-center fixed-top">
     <div class="container-fluid container-xl position-relative d-flex align-items-center justify-content-between">
@@ -67,7 +67,7 @@
         <div class="container">
           <div class="row d-flex justify-content-center text-center">
             <div class="col-lg-8">
-              <h1>Projets</h1>
+              <h1>Détails du projet</h1>
               <p class="mb-0"></p>
             </div>
           </div>
@@ -77,81 +77,62 @@
         <div class="container">
           <ol>
             <li><a href="index.html">Accueil</a></li>
-            <li class="current">Projets</li>
+            <li><a href="portfolio.html">Projets</a></li>
+            <li class="current">Détails du projet</li>
           </ol>
         </div>
       </nav>
     </div><!-- End Page Title -->
 
-    <!-- Portfolio Section -->
-    <section id="portfolio" class="portfolio section">
+    <!-- Portfolio Details Section -->
+    <section id="portfolio-details" class="portfolio-details section">
 
-      <div class="container">
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
 
-        <div class="isotope-layout" data-default-filter="*" data-layout="masonry" data-sort="original-order">
+        <div class="row gy-4">
 
-          <div class="row gy-4 isotope-container" data-aos="fade-up" data-aos-delay="200">
-
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
-              <div class="portfolio-content h-100">
-                <img src="assets/img/portfolio/logo-synox-scaled.webp" class="img-fluid" alt="">
-                <div class="portfolio-info">
-                  <h4>Alternance</h4>
-                  <p>Synox</p>
-                  <a href="alternance-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+          <div class="col-lg-8">
+            <div class="portfolio-details-slider swiper init-swiper">
+              <div class="swiper-wrapper align-items-center">
+                <div class="swiper-slide">
+                  <img src="assets/img/portfolio/logo-synox-scaled.webp" alt="">
                 </div>
               </div>
-            </div><!-- End Portfolio Item -->
+            </div>
+          </div>
 
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
-              <div class="portfolio-content h-100">
-                <img src="assets/img/portfolio/referendum.png" class="img-fluid" alt="">
-                <div class="portfolio-info">
-                  <h4>Application de Référendum</h4>
-                  <a href="referendum-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
-                </div>
-              </div>
-            </div><!-- End Portfolio Item -->
-
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
-              <div class="portfolio-content h-100">
-                <img src="assets/img/portfolio/stage.png" class="img-fluid" alt="">
-                <div class="portfolio-info">
-                  <h4>Stage</h4>
-                  <p>Synox</p>
-                  <a href="stage-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
-                </div>
-              </div>
-            </div><!-- End Portfolio Item -->
-
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
-              <div class="portfolio-content h-100">
-                <img src="assets/img/portfolio/ecommerce.png" class="img-fluid" alt="">
-                <div class="portfolio-info">
-                  <h4>Site de e-Commerce</h4>
-                  <a href="ecommerce-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
-                </div>
-              </div>
-            </div><!-- End Portfolio Item -->
-
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-branding">
-              <div class="portfolio-content h-100">
-                <img src="assets/img/portfolio/legends.png" class="img-fluid" alt="">
-                <div class="portfolio-info">
-                  <h4>Legends Buster</h4>
-                  <p>Durant la Code Game 2024</p>
-                  <a href="legends-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
-                </div>
-              </div>
-            </div><!-- End Portfolio Item -->
-
-          </div><!-- End Portfolio Container -->
+          <div class="col-lg-4">
+            <div class="portfolio-info" data-aos="fade-up" data-aos-delay="200">
+              <h3>Alternance chez Synox (Depuis Sept. 2025)</h3>
+              <ul>
+                <li><strong>Objectif </strong> : Assurer une montée en compétences progressive afin d'intégrer pleinement l'équipe de développement de Synox. 
+                L'alternance a débuté par la réalisation de deux projets spécifiques permettant d'appréhender l'architecture technique et les standards de qualité de l'entreprise. 
+                Cette phase préparatoire avait pour but de me permettre d'intervenir, in fine, comme un développeur à part entière sur le produit principal de supervision.</li>
+                
+                <li><strong>Gestion de projet et méthodologie </strong> : Le parcours a été structuré pour monter en complexité. J'ai d'abord travaillé en autonomie sur des scripts de migration de données, puis sur le développement d'une interface de gestion interne. Après avoir validé ces étapes et les principes de conception de l'entreprise (SOLID), j'ai intégré l'équipe de développement pour travailler sur l'application phare de supervision.</li>
+                
+                <li><strong>Source du projet </strong> : <em>Ce projet étant interne à l'entreprise, je ne peux pas partager de traces.</em></li>
+              </ul>
+            </div>
+            <div class="portfolio-description" data-aos="fade-up" data-aos-delay="300">
+              <h2>Technologies et apprentissages</h2>
+              <p>
+                La première partie de mon alternance s'est concentrée sur la manipulation de flux de données et l'outillage interne. J'ai d'abord conçu des scripts en <strong>Python</strong> pour migrer des données IoT entre différents topics <strong>Kafka</strong>. Par la suite, j'ai développé un outil permettant de récupérer et structurer des données internes (données de repos et informations utiles à l'entreprise) pour les injecter en base de données. Ce projet a été réalisé en appliquant les méthodes de <strong>classes Factory</strong> et les principes <strong>SOLID</strong>, assurant une architecture robuste.
+              </p>
+              <p>
+                Techniquement, j'ai ensuite basculé sur une stack "Fullstack" en rejoignant le projet principal de supervision d'objets connectés. J'interviens désormais sur toute la chaîne de traitement : l'ingestion de données de connexion SIM (Radius) depuis Kafka vers une base <strong>ClickHouse</strong>, leur intégration dans le back-end en <strong>Java</strong>, et enfin leur affichage côté front-end avec <strong>Angular</strong>.
+              </p>
+              <p>
+                Cette expérience me permet de consolider mes acquis en architecture logicielle, tout en m'intégrant au sein d'une équipe de développement agile.
+              </p>
+            </div>
+          </div>
 
         </div>
 
       </div>
 
-    </section><!-- /Portfolio Section -->
+    </section><!-- /Portfolio Details Section -->
 
   </main>
 
