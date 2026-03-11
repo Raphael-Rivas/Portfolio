@@ -1,0 +1,16 @@
+<header id="header" class="header d-flex align-items-center fixed-top">
+  <div class="container-fluid container-xl position-relative d-flex align-items-center justify-content-between">
+    <a routerLink="/" class="logo d-flex align-items-center">
+      <h1 class="sitename">Portfolio</h1>
+    </a>
+    <nav id="navmenu" class="navmenu">
+      <ul>
+        <li><a routerLink="/" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}">Accueil</a></li>
+        <li><a routerLink="/resume" routerLinkActive="active">Parcours</a></li>
+        <li><a routerLink="/portfolio" routerLinkActive="active">Projets</a></li>
+        <li><a routerLink="/portfolio-apprentissage" routerLinkActive="active">Portfolio d'Apprentissage</a></li>
+      </ul>
+      <i class="mobile-nav-toggle d-xl-none bi bi-list" (click)="toggleMobileNav()"></i>
+    </nav>
+  </div>
+</header>
