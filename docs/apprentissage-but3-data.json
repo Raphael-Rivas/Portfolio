@@ -1,0 +1,126 @@
+{
+  "annee": "BUT3",
+  "label": "Troisième année",
+  "parcours": "DACS - Déploiement d'Applications Communicantes et Sécurisées",
+  "sections": [
+    {
+      "id": "A3 - C1: realiser",
+      "title": "Réaliser des applications",
+      "composantes": [
+        "CE1.01 | en respectant les besoins décrits par le client",
+        "CE1.03 | en appliquant les principes algorithmiques",
+        "CE1.04 | en veillant à la qualité du code et à sa documentation",
+        "CE1.06 | en choisissant les ressources techniques appropriées"
+      ],
+      "apprentissages": [
+        "AC 1 Choisir et implémenter les architectures adaptées",
+        "AC 2 Faire évoluer une application existante",
+        "AC 3 Intégrer des solutions dans un environnement de production"
+      ],
+      "items": [
+        {
+          "title": "Choisir et implémenter les architectures adaptées",
+          "apprentissage": "AC 1",
+          "composantes": "CE1.01, CE1.06",
+          "content": "Projet d'alternance"
+        },
+        {
+          "title": "Faire évoluer une application existante",
+          "apprentissage": "AC 2",
+          "composantes": "CE1.03",
+          "content": "Projet d'alternance"
+        },
+        {
+          "title": "Intégrer des solutions dans un environnement de production",
+          "apprentissage": "AC 3",
+          "composantes": "CE1.04",
+          "content": "Projet d'alternance"
+        }
+      ]
+    },
+    {
+      "id": "A3 - C3: administrer",
+      "title": "Administrer des systèmes informatiques",
+      "composantes": [
+        "CE3.01 | en sécurisant le système d'information",
+        "CE3.03 | en appliquant les normes en vigueur et les bonnes pratiques architecturales et de sécurité",
+        "CE3.02 | en offrant une qualité de service optimale",
+        "CE3.04 | en assurant la continuité d'activité"
+      ],
+      "apprentissages": [
+        "AC 1 Créer des processus de traitement automatisé (solution de gestion de configuration et de parc, intégration et déploiement continu...)",
+        "AC 2 Configurer un serveur et des services réseaux de manière avancée (virtualisation...)",
+        "AC 3 Appliquer une politique de sécurité au niveau de l'infrastructure",
+        "AC 4 Déployer et maintenir un réseau d'organisation en fonction de ses besoins"
+      ],
+      "items": [
+        {
+          "title": "Créer des processus de traitement automatisé",
+          "apprentissage": "AC 1",
+          "composantes": "CE3.04",
+          "content": "Cours d'automatisation avec gitlab CI/CD"
+        },
+        {
+          "title": "Configurer un serveur et des services réseaux de manière avancée",
+          "apprentissage": "AC 2",
+          "composantes": "CE3.03",
+          "content": "Cours de cloud computing avec docker, ansible, terraform..."
+        },
+        {
+          "title": "Appliquer une politique de sécurité au niveau de l'infrastructure",
+          "apprentissage": "AC 3",
+          "composantes": "CE3.01",
+          "content": "Cours de cybersécurité avec mise en place de pare-feu, gestion des accès, chiffrement des données..."
+        },
+        {
+          "title": "Déployer et maintenir un réseau d'organisation en fonction de ses besoins",
+          "apprentissage": "AC 4",
+          "composantes": "CE3.02",
+          "content": "Cours de réseaux et sécurité avec mise en place de solutions de continuité d'activité..."
+        }
+      ]
+    },
+    {
+      "id": "A3 - C6: collaborer",
+      "title": "Collaborer au sein d'une équipe informatique",
+      "composantes": [
+        "CE6.01 | en inscrivant sa démarche au sein d'une équipe pluridisciplinaire",
+        "CE6.02 | en accompagnant la mise en œuvre des évolutions informatiques",
+        "CE6.03 | en veillant au respect des contraintes juridiques",
+        "CE6.04 | en développant une communication efficace et collaborative"
+      ],
+      "apprentissages": [
+        "AC 1 Organiser et partager une veille numérique",
+        "AC 2 Identifier les enjeux de l'économie de l'innovation numérique",
+        "AC 3 Guider la conduite du changement informatique au sein d'une organisation",
+        "AC 4 Accompagner le management de projet informatique"
+      ],
+      "items": [
+        {
+          "title": "Organiser et partager une veille numérique",
+          "apprentissage": "AC 1",
+          "composantes": "CE6.01",
+          "content": "Cours de veille technologique, en communication participation a un forum de classe, où chacun partage des décourvertes sur des sujets en particulier, moi c'est iot/cybersécurité"
+        },
+        {
+          "title": "Identifier les enjeux de l'économie de l'innovation numérique",
+          "apprentissage": "AC 2",
+          "composantes": "CE6.03",
+          "content": "Cours d'économie durable et numérique, avec des études de cas sur les enjeux économiques et sociaux de l'innovation numérique. ou le juridique rentrait en jeu nottament grâce au cours de Droit aussi"
+        },
+        {
+          "title": "Guider la conduite du changement informatique au sein d'une organisation",
+          "apprentissage": "AC 3",
+          "composantes": "CE6.02",
+          "content": "pendant mon alternance: projet de migration d'une application vers une nouvelle technologie, pour le systeme d'authentification  de l'application client, en adaptant les nouvelles normes de sécurité"
+        },
+        {
+          "title": "Accompagner le management de projet informatique",
+          "apprentissage": "AC 4",
+          "composantes": "CE6.04",
+          "content": "Alternance avec les méthodes scrum, les reunions ect..."
+        }
+      ]
+    }
+  ]
+}
